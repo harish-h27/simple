@@ -5,7 +5,7 @@ const app = express();
 
 app.get('/', (req, res) => {
 
-  res.send("<h1> Hello world....!")
+  res.send("<h1> Hello....!")
 })
 
 app.get('/hey', (req, res) => {
